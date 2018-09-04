@@ -10,12 +10,11 @@ type: NormalExercise
 lang: r
 xp: 100 
 skills: 1
-key: 05c93c4a30   
+key: 513987f9cd   
 ```
 
 
-This is the Context. It should help provide students with the background information needed.
-The Instructions that follow should be in bullet point form with clear guidance for what is expected.
+这是R语言数据分析的入门课程
 
 
 `@instructions`
@@ -39,25 +38,15 @@ The Instructions that follow should be in bullet point form with clear guidance 
 `@sample_code`
 
 ```{r}
-# Your
-# sample
-# code
-# should
-# be
-# ideally
-# 10 lines or less,
-# with a max
-# of 16 lines.
+#请计算2+5
+
 ```
 
 
 `@solution`
 
 ```{r}
-# Answer goes here
-# Make sure to match the comments with your sample code
-# to help students see the differences from solution
-# to given.
+2+5
 ```
 
 
@@ -65,7 +54,7 @@ The Instructions that follow should be in bullet point form with clear guidance 
 
 ```{r}
 # Update this to something more informative.
-success_msg("Some praise! Then reinforce a learning objective from the exercise.")
+success_msg("恭喜你成功书写你的第一条R语言代码")
 ```
 
 
